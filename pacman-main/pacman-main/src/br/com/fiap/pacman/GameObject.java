@@ -1,13 +1,15 @@
 package br.com.fiap.pacman;
 
 public class GameObject {
+    private int x;
+    private int y;
 
-    public int getY() {
-        return 0;
+    public GameObject(){
+
     }
-
-    public int getX() {
-        return 0;
+    public GameObject(int x;int y){
+        this.x= x;
+        this.y= y;
     }
 
 }
